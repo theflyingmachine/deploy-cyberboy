@@ -19,6 +19,10 @@ git pull
 echo 'Activating virtual environment'
 source venv/bin/activate
 
+#install requirments
+echo 'Installing Requirements'
+pip install -r requirements.txt
+
 #collect static
 echo 'Collecting Static Files'
 python manage.py collectstatic
